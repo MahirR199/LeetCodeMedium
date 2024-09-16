@@ -1,0 +1,8 @@
+Buy low sell high
+go along the list and have condition while pointer < len(list)-1
+as we need to compare the next number to the current number (avoid out of bounds error)
+first we compare the next number and keep incrementing pointer while the next number is <= then the number at pointer
+after it fails we make lo = to the number at pointer
+next we compare the next number and keep incrementing pointer while the next number is >= then the number at pointer
+after the condition fails we make hi = to the number at pointer
+calculate profit and the while loop backtracks
