@@ -1,0 +1,6 @@
+The rotating algorithms takes the idea that 1 part of the array will be shifted to the front and the other to the back
+this will be divided by the k which is the amount the numbers shift by. To shift to the right we first reverse the array
+then we reverse the start of the array to the amount it shifts by (start = 0, end = k-1)
+then reverse the next section of the array that wasnt reversed (start = k, end= len(nums)-1)
+
+for the case where the k is greater than len(nums), we k mod len(nums)
