@@ -1,0 +1,6 @@
+start from reverse.
+set the goal to be the end and check with a for loop going backwards if the nums[i]+i = index of goal
+if yes then set goal to i 
+check if goal == 0 if yes then return true else false
+
+Greedy approach
